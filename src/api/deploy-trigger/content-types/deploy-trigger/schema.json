@@ -4,8 +4,8 @@
   "info": {
     "singularName": "deploy-trigger",
     "pluralName": "deploy-triggers",
-    "displayName": "Deploy trigger",
-    "description": "Publicar cambios al sitio"
+    "displayName": "Publish changes",
+    "description": "Publish site changes"
   },
   "options": {
     "draftAndPublish": false
