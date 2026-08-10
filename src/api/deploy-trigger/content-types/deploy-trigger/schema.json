@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "deploy_triggers",
+  "info": {
+    "singularName": "deploy-trigger",
+    "pluralName": "deploy-triggers",
+    "displayName": "Deploy trigger",
+    "description": "Publicar cambios al sitio"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trigger": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
