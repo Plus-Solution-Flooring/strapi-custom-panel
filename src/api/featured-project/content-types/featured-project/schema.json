@@ -4,7 +4,7 @@
   "info": {
     "singularName": "featured-project",
     "pluralName": "featured-projects",
-    "displayName": "Featured Project"
+    "displayName": "Featured projects"
   },
   "options": { "draftAndPublish": true },
   "attributes": {
