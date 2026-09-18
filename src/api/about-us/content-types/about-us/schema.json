@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "about_us",
   "info": {
     "singularName": "about-us",
@@ -10,6 +10,14 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "es"
+      ],
+      "required": true
+    },
     "text": {
       "type": "text",
       "required": true
@@ -17,7 +25,9 @@
     "image": {
       "type": "media",
       "multiple": false,
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "required": false
     }
   }
